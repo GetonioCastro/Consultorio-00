@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String olaMundo(){
+        //retorna o Hello World no end: localhost:8080/hello
         return "Hello World! GETONIO Castro";
     }
 
